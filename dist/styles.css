@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 header{
     background: rgba(0,0,0,0.85);
@@ -83,6 +84,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
 
 footer a{
